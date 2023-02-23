@@ -1,0 +1,24 @@
+.profile-bg {
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.profile-image {
+  width: 60px;
+}
+.profile-name {
+  color: #6366f1;
+  margin-top: 0;
+}
+.profile-desc {
+  color: #2c364c;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  max-width: 280px;
+}

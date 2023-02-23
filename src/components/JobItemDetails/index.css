@@ -1,0 +1,121 @@
+.job-item-container {
+  background-color: #000;
+  color: #fff;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-item-detail-container {
+  width: 90%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.desc-and-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desc-heading-single,
+.skills,
+.life-at-comp-heading {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+.visit-link {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.website-link {
+  text-decoration: none;
+  color: #6366f1;
+  display: flex;
+  align-items: center;
+}
+.skills-list {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.each-skill-item {
+  width: 50%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.skill-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .each-skill-item {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  .skill-image {
+    width: 50px;
+    margin-right: 20px;
+  }
+}
+.life-at-comp-container {
+  display: flex;
+}
+.life-at-comp-desc {
+  font-size: 18px;
+  max-width: 50%;
+}
+@media (max-width: 768px) {
+  .life-at-comp-container {
+    flex-direction: column;
+  }
+  .life-at-comp-desc {
+    max-width: 100%;
+  }
+}
+.similar-jobs-list {
+  width: 90%;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-job-item {
+  list-style-type: none;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  margin-top: 20px;
+  height: 400px;
+  width: 400px;
+  margin-right: 20px;
+}
+.similar-jobs-heading {
+  width: 90%;
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-left: 5%;
+}
+@media (max-width: 768px) {
+  .similar-job-item {
+    margin-right: 0;
+  }
+}
+.loader {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

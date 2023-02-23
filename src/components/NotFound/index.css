@@ -1,0 +1,13 @@
+.not-found-container {
+  padding: 20px;
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.not-found-desc {
+  text-align: center;
+}
